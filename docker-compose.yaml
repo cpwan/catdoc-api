@@ -1,0 +1,6 @@
+services:
+    catdoc:
+        build:
+            context: .
+        ports:
+            - "8010:8000"
